@@ -2,7 +2,8 @@ development:
   adapter: async
 
 test:
-  adapter: async
+  adapter: redis
+  url: "http://localhost:3000"
 
 production:
   adapter: redis
